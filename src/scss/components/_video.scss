@@ -1,0 +1,16 @@
+@use '../presets' as *;
+
+/*--------------------------video------------------------------*/
+.video {
+    padding-bottom: 70px;
+    background-color: $color-gray-light;
+    margin-top: calc($gap-xl * -1);
+
+    &__frame {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        border: 0;
+        min-height: 200px;
+    }
+}

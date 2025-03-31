@@ -1,0 +1,16 @@
+@use '../presets' as *;
+
+/*--------------------------section------------------------------*/
+@mixin section {
+    padding-top: 105px;
+    padding-bottom: 90px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 35px;
+    }
+
+    &__descr {
+        color: $color-secondary;
+    }
+}
